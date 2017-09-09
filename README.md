@@ -103,9 +103,8 @@ you are using - a good place to start with redis is [data persistence](http://re
 Clone the repository and run `npm update` for all the dependencies to be installed:
 
 ```bash
-git clone https://github.com/zone117x/node-cryptonote-pool.git pool
-cd pool
-npm update
+git clone https://github.com/Hukuta/node-cryptonote-pool.git
+cd pool && npm update
 ```
 
 #### 2) Configuration
@@ -115,9 +114,6 @@ npm update
 Be wary of altcoins that change the number of minimum coin units because you will have to reconfigure several config
 values to account for those changes. Unless you're offering a bounty reward - do not open an issue asking for help
 getting a coin other than Monero working with this software.
-
-
-Copy the `config_example.json` file to `config.json` then overview each options and change any to match your preferred setup.
 
 
 Explanation for each field:
@@ -423,8 +419,7 @@ curl 127.0.0.1:18081/json_rpc -d '{"method":"getblockheaderbyheight","params":{"
 
 Donations
 ---------
-* BTC: `1667jMt7NTZDaC8WXAxtMYBR8DPWCVoU4d`
-* MRO: `48Y4SoUJM5L3YXBEfNQ8bFNsvTNsqcH5Rgq8RF7BwpgvTBj2xr7CmWVanaw7L4U9MnZ4AG7U6Pn1pBhfQhFyFZ1rL1efL8z`
+* MRO: `49CSZ6JJDxkEwtxZtwSywH7SGaYUtugGw5jjx43JG1tAXRv69faQ6w8QQApR2554YY4YeRMPxo1DGCSg8VcroBi1H6dabFs`
 
 Credits
 ===
